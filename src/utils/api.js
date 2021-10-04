@@ -1,4 +1,3 @@
-//https://dog.ceo/api/breeds/list/al
 const URL = "https://dog.ceo/api/"
 
 export const getAllBreeds = async () => {

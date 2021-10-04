@@ -3,7 +3,6 @@ import { Image, StyleSheet, View } from 'react-native';
 import Swiper from 'react-native-swiper';
 
 export default function ImagesCarousel({ urls }) {
-	//{{uri: 'https://reactnative.dev/img/tiny_logo.png'}}
 	const children = urls.map(url => (
 		<View
 			style={styles.imageWrapper}
